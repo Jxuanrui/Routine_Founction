@@ -1,3 +1,22 @@
 # 存储Git相关命令，用来同步
 
-# 
+# 将GitHub代码仓库下载本地：
+## 1.进入仓库，选择code下的ssh复制按钮
+## 2.在本地新建一个空白文件夹用于下载GitHub代码仓库（ps:必须保证是空的文件夹）
+## 3.在该文件目录下右键选择“Git bash here"
+## 4.输入pwd查看当前位置是否为你所建立的空白文件夹位置，却无误后输入：git clone 加上你复制的SSH密匙
+## 5.完成从GitHub上下载代码仓库
+
+# 将在GitHub上更改的内容同步到本地
+## 1.在给GitHub上修改完后记得保存
+## 2.进入你建立的文件夹，右键git bash here
+## 3.输入pwd确认位置后，输入git pull origin
+## 4.查看本地是否更新
+
+# 将本地更新后的代码上传到GitHub
+## 1. 更改本地文件
+## 2. 在文件夹下右键git bash here,输入pwd确认位置
+## 3. 输入git add .
+## 4. 输入git commit -m 'update'
+## 5. 输入git push
+## 6. 打开GitHub查看是否成功
